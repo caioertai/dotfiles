@@ -1,4 +1,5 @@
 ZSH=$HOME/.oh-my-zsh
+GITHUB_USERNAME="caioertai"
 
 # You can change the theme with another one:
 #   https://github.com/robbyrussell/oh-my-zsh/wiki/themes
@@ -17,6 +18,7 @@ unalias rm # No interactive rm by default (brought by plugins/common-aliases)
 # Load rbenv if installed
 export PATH="${HOME}/.rbenv/bin:${PATH}"
 export PATH=$GOROOT/bin:$PATH
+export PATH=~/bin:$PATH
 
 type -a rbenv > /dev/null && eval "$(rbenv init -)"
 
