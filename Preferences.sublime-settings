@@ -1,6 +1,6 @@
 {
 	"always_show_minimap_viewport": false,
-	"color_scheme": "Packages/ayu/ayu-mirage.tmTheme",
+	"color_scheme": "Packages/hey.sublime-color-scheme",
 	"detect_indentation": false,
 	"draw_white_space": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -20,7 +20,7 @@
 		"public/packs",
 		"coverage"
 	],
-	"font_size": 15,
+	"font_size": 17,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
@@ -34,7 +34,7 @@
 		80
 	],
 	"tab_size": 2,
-	"theme": "ayu-mirage.sublime-theme",
+	"theme": "ayu-light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
