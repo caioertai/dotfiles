@@ -41,3 +41,4 @@ export PATH=$GOROOT/bin:$PATH
 # added by travis gem
 [ -f /home/caioertai/.travis/travis.sh ] && source /home/caioertai/.travis/travis.sh
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
