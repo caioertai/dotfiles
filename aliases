@@ -25,6 +25,7 @@ alias downloads='cd ~/Downloads'
 alias cov='opera coverage/index.html'
 alias migrate='rails db:migrate'
 alias rs='rails s'
+alias be='bundle exec'
 
 # Fun
 alias nyan='~/code/caioertai/nyancat/src/nyancat'
