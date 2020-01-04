@@ -8,7 +8,7 @@ end
 begin
   require 'faker'
 rescue LoadError
-  puts 'Faker not installed, no quotes for you...'
+  puts 'Skipping quotes. Faker not installed...'
 end
 
 if defined?(Faker)

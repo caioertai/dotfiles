@@ -20,11 +20,15 @@ alias livecodes='cd ~/code/lewagon/livecodes'
 alias repos='cd ~/code/caioertai'
 alias baires='cd ~/code/bairesdev'
 alias downloads='cd ~/Downloads'
+alias open='nautilus'
 
 # Rails
 alias cov='opera coverage/index.html'
 alias migrate='rails db:migrate'
 alias rs='rails s'
+
+# Prefix Shortcuts
+alias hr='heroku run'
 alias be='bundle exec'
 
 # Fun
