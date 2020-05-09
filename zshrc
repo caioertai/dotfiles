@@ -45,3 +45,4 @@ export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
 
 # Yarn global path
 export PATH="$(yarn global bin):$PATH"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
