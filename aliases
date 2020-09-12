@@ -13,14 +13,17 @@ alias gst='git status'
 alias gco='git checkout'
 alias greb='git rebase -i'
 alias ggp='git push origin HEAD'
+alias gcm='git commit -m'
 
 # Navigation
 alias lectures='cd ~/code/lewagon/lectures'
 alias livecodes='cd ~/code/lewagon/livecodes'
 alias repos='cd ~/code/caioertai'
+alias lsat-mentoring='cd ~/code/lsat-mentoring'
 alias baires='cd ~/code/bairesdev'
 alias downloads='cd ~/Downloads'
 alias open='nautilus'
+alias exercism-folder='cd /home/caioertai/snap/exercism/5/exercism'
 
 # Rails
 alias cov='opera coverage/index.html'
@@ -30,6 +33,7 @@ alias rs='rails s'
 # Prefix Shortcuts
 alias hr='heroku run'
 alias be='bundle exec'
+alias heroku_depoy='git push heroku master && heroku run rake db:migrate'
 
 # Fun
 alias nyan='~/code/caioertai/nyancat/src/nyancat'
