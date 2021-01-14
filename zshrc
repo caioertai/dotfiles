@@ -61,3 +61,4 @@ validate_yaml() {
     #do things with parameters like $1 such as
     ruby -e "require 'yaml';puts YAML.load_file('$1')"
 }
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
