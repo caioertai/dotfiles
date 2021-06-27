@@ -1,8 +1,9 @@
-# Get External IP / local IPs
-alias ip="echo 'IPv4' && curl ipinfo.io/ip && echo '---\nLocal' && hostname -I"
+# Get External IP / Internet Speed
+alias myip="curl https://ipinfo.io/json" # or /ip for plain-text ip
+alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -"
 
 # Quickly serve the current directory as HTTP
-alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
+alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
 
 # Git
 alias ga='git add'
@@ -19,21 +20,11 @@ alias gcm='git commit -m'
 alias lectures='cd ~/code/lewagon/lectures'
 alias livecodes='cd ~/code/lewagon/livecodes'
 alias repos='cd ~/code/caioertai'
-alias lsat-mentoring='cd ~/code/lsat-mentoring'
-alias baires='cd ~/code/bairesdev'
 alias downloads='cd ~/Downloads'
-alias open='nautilus'
-alias exercism-folder='cd /home/caioertai/snap/exercism/5/exercism'
 
 # Rails
-alias cov='opera coverage/index.html'
 alias migrate='rails db:migrate'
-alias rs='rails s'
 
 # Prefix Shortcuts
 alias hr='heroku run'
 alias be='bundle exec'
-alias heroku_depoy='git push heroku master && heroku run rake db:migrate'
-
-# Fun
-alias nyan='~/code/caioertai/nyancat/src/nyancat'

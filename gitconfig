@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = subl -n -w  >/dev/null 2>&1
+  editor = code
 
 [alias]
   co = checkout
@@ -46,7 +46,10 @@
 
 [branch "master"]
   mergeoptions = --no-edit
-[user]
+
 [user]
 	email = andrade@hey.com
 	name = Caio Andrade
+
+[pull]
+  rebase = false
